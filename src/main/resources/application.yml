@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+hibinaction:
+  datasource:
+    jdbcUrl: jdbc:postgresql://localhost:5432/HibernateInAction
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+hibtest:
+  datasource:
+    jdbcUrl: jdbc:postgresql://localhost:5432/hibtest
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
